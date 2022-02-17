@@ -1,0 +1,2136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+/* Navigation Bar starts here */
+.navbar {
+    background-color: #092545;
+    padding: 13px 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    font-size: 14px;
+    font-weight: 400;
+}
+.navbar-items-list {
+    display: flex;
+    gap: 72px;
+    list-style: none;
+}
+.navbar-items-list-items-links {
+    text-decoration: none;
+    color:whitesmoke;
+}
+.nav-bar-icon {
+    display: none;
+}
+/* Navigation Bar ends here*/
+
+
+/* Heropart starts here  */
+
+.heropart {
+    background-color: #092545;
+    height: 100vh;
+    padding: 66px 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heropart-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.heropart-text-para-text {
+    font-size: 18px;
+    font-weight: 400px;
+    color: whitesmoke;
+}
+.heropart-text-head-text {
+    color: whitesmoke;
+    font-size: 72px;
+    font-weight: 70px;
+}
+.heropart-text-head-text-clrtxt {
+    color:#F55C59;
+}
+.heropart-btn {
+    transition: 0.3s;
+}
+.heropart-btn-text {
+    margin-top: 85px;
+    width: 187px;
+    height: 51px;
+    border: 1px solid #F55C59;
+    background-color: #F55C59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 500px;
+    outline: none;
+    transition: 0.3s;
+}
+.heropart-btn-text:hover {
+    background-color: #092545;
+    color: #F55C59;
+}
+
+/* Heropart ends here */
+
+/* About part starts here */
+
+.about {
+    color: whitesmoke;
+    height: 863px;
+    padding: 96px 340px;
+    background-color: #0A294D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 83px;
+}
+.about-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 51px;
+}
+.about-header-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+}
+.about-header-head-btn {
+    width: 104px;
+    height: 37px;
+    background-color: #F55C59;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    /* border: 1px solid #F55C59; */
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    /* padding: 10px 27px; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-header-head-text {
+    font-size: 48px;
+    font-weight: 200;
+}
+.about-header-head-text-bold-text {
+    font-weight: 600;
+}
+.about-header-para {
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 400;
+}
+.about-header-pera-text {
+    text-align: center;
+}
+.about-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+.about-social-head-text {
+    font-size: 36px;
+    font-weight: 300;
+}
+.about-social-head-text-bold-text {
+    font-weight: 700;
+}
+.about-social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.about-social-links-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+/* About part ends here */
+
+/* Skill part starts here */
+
+.skill {
+    padding: 96px 340px;
+    height: 712px;
+    background-color: #092545;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 83px;
+}
+.skill-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    color: whitesmoke;
+}
+.skill-head-btn {
+    width: 104px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55C59;
+    color: whitesmoke;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.skill-head-text {
+    font-size: 48px;
+    font-weight: 300;
+    text-align: center;
+}
+.skill-head-text-bold-text {
+    font-weight: bold;
+}
+.skill-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+/* skill-card-one starts here */
+
+.skill-card-one {
+    background-color: #0A294D;
+    width: 397px;
+    height: 260px;
+    border-top: 7px solid #37FF6F;
+    border-radius: 7px;
+    padding-top: 50px;
+    padding-bottom: 36px;
+    padding-left: 48px;
+    padding-right: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 59px;
+}
+.skill-card-one-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.skill-card-one-header-text {
+    text-align: start;
+}
+.skill-card-one-header-text-heading {
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
+}
+.skill-card-one-header-text-pera {
+    color: #3073A2;
+    font-size: 18px;
+    font-weight: 200;
+}
+.skill-card-one-para {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+.skill-card-one-para-head {
+    display: flex;
+    gap: 8px;
+}
+.skill-card-one-para-head-para-text {
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+/* skill-card-one ends here */
+
+
+/* skill-card-two starts here  */
+
+.skill-card-two {
+    background-color: #0A294D;
+    width: 397px;
+    height: 260px;
+    border-top: 7px solid #F55C59;
+    border-radius: 7px;
+    padding-top: 50px;
+    padding-bottom: 36px;
+    padding-left: 48px;
+    padding-right: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 59px;
+}
+.skill-card-two-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.skill-card-two-header-text {
+    text-align: start;
+}
+.skill-card-two-header-text-heading {
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
+}
+.skill-card-two-header-text-pera {
+    color: #3073A2;
+    font-size: 18px;
+    font-weight: 200;
+}
+.skill-card-two-para {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+.skill-card-two-para-head {
+    display: flex;
+    gap: 8px;
+}
+.skill-card-two-para-head-para-text {
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+
+/* skill-card-two ends here  */
+
+
+/* skill-card-two starts here  */
+
+.skill-card-three {
+    background-color: #0A294D;
+    width: 397px;
+    height: 260px;
+    border-top: 7px solid #37DBFF;
+    border-radius: 7px;
+    padding-top: 50px;
+    padding-bottom: 36px;
+    padding-left: 48px;
+    padding-right: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 59px;
+}
+.skill-card-three-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.skill-card-three-header-text {
+    text-align: start;
+}
+.skill-card-three-header-text-heading {
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
+}
+.skill-card-three-header-text-pera {
+    color: #3073A2;
+    font-size: 18px;
+    font-weight: 200;
+}
+.skill-card-three-para {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+.skill-card-three-para-head {
+    display: flex;
+    gap: 8px;
+}
+.skill-card-three-para-head-para-text {
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+
+/* skill-card-three ends here  */
+
+
+
+/* Skill part ends here */
+
+
+
+/* Working hours starts here */
+
+.working-hour {
+    padding: 131px 340px;
+    height: 701px;
+    background-color: #0A294D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+}
+.working-hour-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 49px;
+}
+.working-hour-head-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.working-hour-head-header-btn {
+    width: 183px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55C59;
+    border: 1px solid #F55C59;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: 500;
+}
+.working-hour-head-header-text {
+    color: whitesmoke;
+    font-size: 48px;
+    font-weight: 300;
+}
+.working-hour-head-text-bold-text {
+    font-weight: bold;
+}
+.working-hour-head-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+
+/* Working hours card one starts here */
+
+.working-hour-head-card-one {
+    width: 292px;
+    height: 195px;
+    background-color: #092545;
+    padding: 34px 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 8px;
+}
+.working-hour-head-card-one-head-text {
+    color: whitesmoke;
+    font-size: 32px;
+    font-weight: bold;
+}
+.working-hour-head-card-one-para-text {
+    color: #3073A2;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+/* Working hours card one ends here */
+
+/* Working hours card two starts here */
+
+.working-hour-head-card-two {
+    width: 292px;
+    height: 195px;
+    background-color: #092545;
+    padding: 34px 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 8px;
+}
+.working-hour-head-card-two-head-text {
+    color: whitesmoke;
+    font-size: 32px;
+    font-weight: bold;
+}
+.working-hour-head-card-two-para-text {
+    color: #3073A2;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+/* Working hours card one ends here */
+
+
+/* Working hours card three starts here */
+
+.working-hour-head-card-three {
+    width: 292px;
+    height: 195px;
+    background-color: #092545;
+    padding: 34px 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 8px;
+}
+.working-hour-head-card-three-head-text {
+    color: whitesmoke;
+    font-size: 32px;
+    font-weight: bold;
+}
+.working-hour-head-card-three-para-text {
+    color: #3073A2;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+/* Working hours card three ends here */
+
+/* Working hours card four starts here */
+
+.working-hour-head-card-four {
+    width: 292px;
+    height: 195px;
+    background-color: #092545;
+    padding: 34px 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 8px;
+}
+.working-hour-head-card-four-head-text {
+    color: whitesmoke;
+    font-size: 32px;
+    font-weight: bold;
+}
+.working-hour-head-card-four-para-text {
+    color: #3073A2;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+/* Working hours card four ends here */
+
+.working-hour-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.working-hour-card-link-text {
+    color: #3073A2;
+    font-size: 24px;
+    font-weight: 300;
+    transition: 0.3s;
+}
+.working-hour-card-link-text:hover {
+    background-color: #3073A2;
+    color: #092545;
+}
+
+/* Working hours ends here */
+
+
+/* experience starts here */
+
+.experience {
+    padding: 154px 340px;
+    height: 956px;
+    background-color: #092545;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 104px;
+}
+.experience-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.experience-head-btn {
+    width: 154px;
+    height: 37px;
+    font-size: 14px;
+    font-weight: 500;
+    color: whitesmoke;
+    background-color: #F55C59;
+    border: 1px solid #F55C59;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 29px;
+}
+.experience-head-heading {
+    font-size: 48px;
+    font-weight: 300;
+    color: whitesmoke;
+    text-align: center;
+}
+.experience-head-heading-bold-text {
+    font-weight: bold;
+}
+.experience-details {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+.experience-details-projects {
+    width: 292px;
+    height: 404px;
+    font-size: 18px;
+    color: whitesmoke;
+    border-right: 2px solid #3073A2;
+}
+.experience-details-projects-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 30px;
+    text-align: center;
+}
+.experience-details-projects-list-name {
+    
+}
+.experience-details-projects-list-name-text {
+    text-decoration: none;
+    color: whitesmoke;
+    width: 292px;
+    height: 52px;
+    padding: 15px 48px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.experience-details-designer {
+    background-color: #0A294D;
+    width: 608px;
+    height: 404px;
+    padding: 33px 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 48px;
+    border-radius: 5px;
+}
+.experience-details-designer-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.experience-details-designer-head-text {
+    font-size: 24px;
+    color: whitesmoke;
+}
+.experience-details-designer-pera-text {
+    color: #3073A2;
+    font-size: 18px;
+}
+.experience-details-designer-category-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    font-size: 18px;
+    color: whitesmoke;
+}
+.experience-years {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+}
+.experience-years-one {
+    width: 292px;
+    height: 194px;
+    background-color: #0A294D;
+    padding: 89px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.experience-years-one-head-text {
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: 600;
+}
+.experience-years-one-head-text-bold-text {
+    font-size: 64px;
+    font-weight: bolder;
+}
+.experience-years-one-para-text {
+    font-size: 18px;
+    color: #3073A2;
+}
+.experience-years-two {
+    width: 292px;
+    height: 194px;
+    background-color: #0A294D;
+    padding: 89px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.experience-years-two-head-text {
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: 600;
+}
+.experience-years-two-head-text-bold-text {
+    font-size: 64px;
+    font-weight: bolder;
+}
+.experience-years-two-para-text {
+    font-size: 18px;
+    color: #3073A2;
+}
+
+/* experience ends here */
+
+/* Projects starts here */
+
+.project {
+    height: 1500px;
+    background-color: #0A294D;
+    padding: 100px 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 88px;
+}
+.project-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 66px;
+}
+.project-head-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.project-head-heading-btn {
+    width: 133px;
+    height: 37px;
+    font-size: 14px;
+    font-weight: 500;
+    color: whitesmoke;
+    background-color: #F55C59;
+    border: 1px solid #F55C59;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-head-heading-text {
+    font-size: 48px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+.project-head-heading-text-bold-text {
+    font-weight: bold;
+}
+.project-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.project-cards-group-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+/* card one starts*/
+
+.project-cards-group-first-card-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 27px;
+    background-color: #092545;
+    border-radius: 5px;
+}
+
+.project-cards-group-first-card-one-text {
+    padding: 33px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.project-cards-group-first-card-one-text-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+.project-cards-group-first-card-one-text-head-heading-text {
+    font-size: 24px;
+    color: whitesmoke;
+}
+.project-cards-group-first-card-one-text-head-para-text {
+    font-size: 18px;
+    font-weight: 200;
+    color: #5682B3;
+}
+.project-cards-group-first-card-one-projects-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.project-cards-group-first-card-one-projects-name-text {
+    padding: 8px;
+    font-size: 12px;
+    background-color: #3073A2;
+    color: whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* card one ends */
+
+/* card two starts */
+/* 
+.project-cards-group-first-card-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 27px;
+    background-color: #092545;
+    border-radius: 5px;
+}
+
+.project-cards-group-first-card-two-text {
+    padding: 33px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.project-cards-group-first-card-two-text-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+.project-cards-group-first-card-two-text-head-heading-text {
+    font-size: 24px;
+    color: whitesmoke;
+}
+.project-cards-group-first-card-two-text-head-para-text {
+    font-size: 18px;
+    font-weight: 200;
+    color: #5682B3;
+}
+.project-cards-group-first-card-two-projects-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.project-cards-group-first-card-two-projects-name-text {
+    padding: 8px;
+    font-size: 12px;
+    background-color: #3073A2;
+    color: whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* card two ends */
+
+
+/* card three starts */
+/* 
+.project-cards-group-first-card-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 27px;
+    background-color: #092545;
+    border-radius: 5px;
+}
+
+.project-cards-group-first-card-three-text {
+    padding: 33px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.project-cards-group-first-card-three-text-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+.project-cards-group-first-card-three-text-head-heading-text {
+    font-size: 24px;
+    color: whitesmoke;
+}
+.project-cards-group-first-card-three-text-head-para-text {
+    font-size: 18px;
+    font-weight: 200;
+    color: #5682B3;
+}
+.project-cards-group-first-card-three-projects-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.project-cards-group-first-card-three-projects-name-text {
+    padding: 8px;
+    font-size: 12px;
+    background-color: #3073A2;
+    color: whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ */
+
+
+
+/* card three ends */
+
+
+
+/* seccound group cars */
+
+.project-cards-group-secound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+/* card one starts */
+
+/* .project-cards-group-secound-card-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 27px;
+    background-color: #092545;
+    border-radius: 5px;
+}
+.card-one-img:hover {
+    transform: scale(1.1);
+}
+
+.project-cards-group-secound-card-one-text {
+    padding: 33px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.project-cards-group-secound-card-one-text-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+.project-cards-group-secound-card-one-text-head-heading-text {
+    font-size: 24px;
+    color: whitesmoke;
+}
+.project-cards-group-secound-card-one-text-head-para-text {
+    font-size: 18px;
+    font-weight: 200;
+    color: #5682B3;
+}
+.project-cards-group-secound-card-one-projects-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.project-cards-group-secound-card-one-projects-name-text {
+    padding: 8px;
+    font-size: 12px;
+    background-color: #3073A2;
+    color: whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* card one ends */
+
+
+/* card two starts */
+/* 
+.project-cards-group-secound-card-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 27px;
+    background-color: #092545;
+    border-radius: 5px;
+}
+.overflow-hidden {
+    overflow: hidden;
+    height: 298px;
+    transition: 0.3s;
+}
+
+.project-cards-group-secound-card-two-text {
+    padding: 33px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.project-cards-group-secound-card-two-text-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+.project-cards-group-secound-card-two-text-head-heading-text {
+    font-size: 24px;
+    color: whitesmoke;
+}
+.project-cards-group-secound-card-two-text-head-para-text {
+    font-size: 18px;
+    font-weight: 200;
+    color: #5682B3;
+}
+.project-cards-group-secound-card-two-projects-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.project-cards-group-secound-card-two-projects-name-text {
+    padding: 8px;
+    font-size: 12px;
+    background-color: #3073A2;
+    color: whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* card two ends */
+
+
+/* card three starts */
+/* 
+.project-cards-group-secound-card-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 27px;
+    background-color: #092545;
+    border-radius: 5px;
+}
+.project-cards-group-secound-card-three-text {
+    padding: 33px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.project-cards-group-secound-card-three-text-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+.project-cards-group-secound-card-three-text-head-heading-text {
+    font-size: 24px;
+    color: whitesmoke;
+}
+.project-cards-group-secound-card-three-text-head-para-text {
+    font-size: 18px;
+    font-weight: 200;
+    color: #5682B3;
+}
+.project-cards-group-secound-card-three-projects-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.project-cards-group-secound-card-three-projects-name-text {
+    padding: 8px;
+    font-size: 12px;
+    background-color: #3073A2;
+    color: whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */ */
+
+/* card three ends */
+
+.project-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-link-text {
+    color: #3073A2;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    transition: 0.03s;
+} 
+.project-link-text:hover {
+    background-color: #3073A2;
+    color: #092545;
+}
+
+
+
+
+
+
+/* Projects ends here */
+
+
+/* Recomendation starts here */
+
+.recomendation {
+    background-color: #092545;
+    height: 1248px;
+    padding: 148px 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 123px;
+    position: relative;
+}
+.recomendation-click-cir-img-left {
+    position: absolute;
+    left: 16%;
+    bottom: 45%;
+}
+.recomendation-click-cir-img-right {
+    position: absolute;
+    right: 16%;
+    bottom: 45%;
+}
+.recomendation-click-arrow-img-left {
+    position: absolute;
+    left: 16.9%;
+    top: 50.5%;
+}
+.recomendation-click-arrow-img-right {
+    position: absolute;
+    right: 16.9%;
+    top: 50.5%;
+}
+.recomendation-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 69px;
+}
+.recomendation-header-head-btn {
+    width: 182px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background-color: #F55C59;
+    border: 1px solid #F55C59;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.recomendation-header-head-text {
+    color: whitesmoke;
+    font-size: 48px;
+    font-weight: 200;
+    text-align: center;
+}
+.recomendation-header-head-text-bold-text {
+    font-weight: bold;
+}
+.recomendation-header-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+/* cards starts here */
+
+.recomendation-header-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.recomendation-header-cards-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.recomendation-header-cards-first-one-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 18px;
+}
+.recomendation-header-cards-secound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.recomendation-header-cards-first-one {
+    width: 608px;
+    height: 344px;
+    padding: 45px 35px;
+    background-color: #0A294D;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 8px;
+}
+.recomendation-header-cards-first-one-header-text {
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
+}
+.recomendation-header-cards-first-one-header-pera-text {
+    font-size: 17px;
+    font-weight: 200;
+    color: #3073A2;
+}
+.recomendation-header-cards-first-one-para-text {
+    font-size: 18px;
+    font-weight: 300;
+    color: whitesmoke;
+}
+.recomendation-header-cards-first-two {
+    width: 608px;
+    height: 344px;
+    padding: 45px 35px;
+    background-color: #0A294D;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 8px;
+}
+.recomendation-header-cards-first-two-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 18px;
+}
+.recomendation-header-cards-first-two-header-text {
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
+}
+.recomendation-header-cards-first-two-header-pera-text {
+    font-size: 17px;
+    font-weight: 200;
+    color: #3073A2;
+}
+.recomendation-header-cards-first-two-para-text {
+    font-size: 18px;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.recomendation-header-cards-secound-one {
+    width: 608px;
+    height: 344px;
+    padding: 45px 35px;
+    background-color: #0A294D;
+    border-radius: 8px;
+}
+.recomendation-header-cards-secound-one-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 18px;
+}
+.recomendation-header-cards-secound-one-header-text {
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
+}
+.recomendation-header-cards-secound-one-header-pera-text {
+    font-size: 17px;
+    font-weight: 200;
+    color: #3073A2;
+}
+.recomendation-header-cards-secound-one-para-text {
+    font-size: 18px;
+    font-weight: 300;
+    color: whitesmoke;
+}
+.recomendation-header-cards-secound-two {
+    width: 608px;
+    height: 344px;
+    padding: 45px 35px;
+    background-color: #0A294D;
+    border-radius: 8px;
+}
+.recomendation-header-cards-secound-two-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 18px;
+}
+.recomendation-header-cards-secound-two-header-text {
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
+}
+.recomendation-header-cards-secound-two-header-pera-text {
+    font-size: 17px;
+    font-weight: 200;
+    color: #3073A2;
+}
+.recomendation-header-cards-secound-two-para-text {
+    font-size: 18px;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.recomendation-link-text {
+    text-align: center;
+    color: #3073A2;
+    font-size: 24px;
+    font-weight: 300;
+    transition: 0.03s;
+}
+.recomendation-link-text:hover {
+    background-color: #3073A2;
+    color: #092545;
+}
+/* cards ends here */
+
+
+/* Recomendation ends here */
+
+
+/* Email starts here */
+
+.email {
+    height: 784px;
+    background-color: #0A294D;
+    padding: 33px 340px;
+    background-image: url(/images/bgpic.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+.email-head {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+.email-head-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    color: whitesmoke;
+}
+.email-head-heading-text {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+.email-head-heading-para-text {
+    text-align: center;
+    font-size: 18px;
+}
+.email-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.email-form-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.email-form-typ-btn {
+    background-color: #0D3B6D;
+    width: 423px;
+    height: 59px;
+    color:#0D3B6D ;
+    padding: 19px 21px;
+    border-radius: 8px;
+}
+.email-form-typ-btn-text {
+    background-color: #0D3B6D;
+    border: 1px solid #0D3B6D;
+    font-size: 14px;
+    font-weight: 400;
+}
+.email-form-btn {
+    width: 187px;
+    height: 51px;
+    background-color: #F55C59;
+    border: 1px solid #F55C59;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.03s;
+}
+.email-form-btn:hover {
+    background-color: #071D37;
+    color: #F55C59;
+}
+
+/* Email ends here */
+
+/* footer starts here */
+
+.footer {
+    height: 499px;
+    background-color: #071D37;
+    /* padding: 60px 340px; */
+    padding-top: 60px;
+    padding-bottom: 39px;
+    padding-right: 340px;
+    padding-left: 340px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 57px;
+}
+.footer-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-head-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+}
+.footer-head-heading-text {
+    font-size: 40px;
+}
+.footer-brk {
+    display: none;
+}
+.footer-head-heading-para {
+    text-align: center;
+}
+.footer-right-reserve {
+    padding: 33px 0px;
+    border-top: 1px solid whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 745px;
+}
+.footer-right-reserve-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.facebook {
+    font-size: 30px;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    width: 37px;
+    transition: 0.3s;
+}
+.facebook:hover {
+    color: #F55C59;
+    border: 1px solid #F55C59;
+}
+
+/* footer ends here */
+
+@media screen and (max-width: 1536px) {
+    .navbar {
+        padding: 13px 340px;
+    }
+    .heropart {
+        padding: 66px 340px;
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    .navbar {
+        padding: 13px 340px;
+    }
+    .heropart {
+        padding: 66px 340px;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .navbar {
+        padding: 16px 19px;
+    }
+    .heropart {
+        height: auto;
+        padding: 66px 140px;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .heropart-text {
+        align-items: center;
+    }
+    .heropart-text-head-text {
+        text-align: center;
+    }
+    .heropart-text-para-text {
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 13px 70px;
+    }
+    .heropart {
+        height: auto;
+        padding: 66px 70px;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .heropart-text {
+        align-items: center;
+    }
+    .heropart-text-head-text {
+        text-align: center;
+    }
+    .heropart-text-para-text {
+        text-align: center;
+    }
+    .about {
+        height: auto;
+        padding: 96px 32px;
+    }
+    .about-header-head {
+        gap: 24px;
+    }
+    .about-header-pera-text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 40px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .navbar {
+        padding: 13px 35px;
+        border-bottom: none;
+    }
+    .navbar-items {
+        /* display: none; */
+    }
+    .navbar-items-list {
+        display: none;
+    }
+    .nav-bar-icon {
+        /* width: 30px;
+        height: 30px; */
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: whitesmoke;
+    }
+    /* hero-part starts here */
+    .heropart {
+        height: auto;
+        padding-top: 57px;
+        padding-bottom: 71px;
+        padding-left: 48px;
+        padding-right: 48px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 37px;
+    }
+    .heropart-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .heropart-text-para-text {
+        font-size: 14px;
+    }
+    .heropart-text-head-text {
+        font-size: 48px;
+    }
+    .heropart-text-head-text-clrtxt {
+        color:#F55C59;
+    }
+    .heropart-btn {
+        transition: 0.3s;
+    }
+    .heropart-btn-text {
+        font-size: 14px;
+    }
+    .hero-img {
+        height: 382px;
+        width: 331px;
+    }
+    /* hero-part ends here */
+    
+    /* About part starts here */
+
+    .about {
+        height: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+        gap: 72px;
+    }
+    .about-header {
+        gap: 32px;
+    }
+    .about-header-head {
+        gap: 24px;
+    }
+    .about-header-head-text {
+        font-size: 32px;
+    }
+    .about-header-head-text-bold-text {
+        font-weight: 600;
+    }
+    .about-header-pera-text {
+        font-size: 14px;
+    }
+    .header-pera-brk {
+        display: none;
+    }
+    .about-social {
+        gap: 38px;
+    }
+    .about-social-head-text {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .about-social-links {
+        flex-direction: column;
+    }
+    /* About part ends here */
+
+    /* Skill part starts here */
+
+    .skill {
+        padding: 94px 16px;
+        height: auto;
+        gap: 32px;
+    }
+    .skill-cards {
+        flex-direction: column;
+        gap: 24px;
+    }
+    /* Skill part ends here */
+
+    /* Working hours starts here */
+
+.working-hour {
+    padding: 85px 16px;
+    height: auto;
+    background-color: #0A294D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+}
+.working-hour-head {
+    gap: 57px;
+}
+.working-hour-head-header {
+    gap: 24px;
+}
+.working-hour-head-header-text {
+    font-size: 32px;
+    font-weight: 400;
+}
+.working-hour-head-text-bold-text {
+    font-weight: bold;
+}
+.working-hour-head-card {
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+/* Working hours card one starts here */
+
+.working-hour-head-card-one {
+    width: 396px;
+    height: 195px;
+    align-items: center;
+}
+/* Working hours card one ends here */
+
+/* Working hours card two starts here */
+
+.working-hour-head-card-two {
+    width: 396px;
+    height: 195px;
+    align-items: center;
+}
+/* Working hours card two ends here */
+
+
+/* Working hours card three starts here */
+
+.working-hour-head-card-three {
+    width: 396px;
+    height: 195px;
+    align-items: center;
+}
+/* Working hours card three ends here */
+
+/* Working hours card four starts here */
+
+.working-hour-head-card-four {
+    width: 396px;
+    height: 195px;
+    align-items: center;
+}
+/* Working hours card four ends here */
+.working-hour-card-link-text {
+    font-size: 18px;
+}
+/* Working hours ends here */
+
+
+/* experience starts here */
+
+.experience {
+    padding-top: 57px;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: auto;
+    gap: 31px;
+}
+.experience-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+.experience-details-projects {
+    width: 396px;
+    height: 45px;
+    font-size: 18px;
+}
+.experience-details-projects-list {
+    list-style: none;
+    width: 396px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+.experience-details-projects-list-name-text {
+    text-decoration: none;
+    color: whitesmoke;
+    width: 396px;
+    height: 45px;
+    padding: 15px 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experience-details-projects-list-name-text-hide {
+    display: none;
+}
+
+/* experience ends here */
+
+/* Recomendation starts here */
+
+.recomendation {
+    height: auto;
+    padding-top: 89px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 71px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.recomendation-click-cir-img-left {
+    display: none;
+}
+.recomendation-click-cir-img-right {
+    display: none;
+}
+.recomendation-click-arrow-img-left {
+    display: none;
+}
+.recomendation-click-arrow-img-right {
+    display: none;
+}
+.recomendation-header {
+    gap: 40px;
+}
+.recomendation-header-head-text {
+    font-size: 32px;
+    font-weight: 400;
+}
+/* cards starts here */
+
+.recomendation-header-cards {
+    gap: 24px;
+}
+.recomendation-header-cards-first {
+    flex-direction: column;
+}
+.recomendation-header-cards-first-one-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 22px;
+}
+.recomendation-header-cards-secound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.recomendation-header-cards-first-one {
+    width: 396px;
+    height: 405px;
+    padding-top: 44px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 29px;
+    background-color: #0A294D;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+}
+.pera-text-hide {
+    display: none;
+}
+.recomendation-header-cards-first-two {
+    width: 396px;
+    height: 405px;
+    padding-top: 44px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 29px;
+    background-color: #0A294D;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 8px;
+}
+.recomendation-header-cards-first-two-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 22px;
+}
+.recomendation-header-cards-secound {
+    flex-direction: column;
+}
+.recomendation-header-cards-secound-one {
+    width: 396px;
+    height: 405px;
+    padding-top: 44px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 29px;
+    background-color: #0A294D;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 8px;
+}
+.recomendation-header-cards-secound-one-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 22px;
+}
+.recomendation-header-cards-secound-two {
+    width: 396px;
+    height: 405px;
+    padding-top: 44px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 29px;
+    background-color: #0A294D;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 8px;
+}
+.recomendation-header-cards-secound-two-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 22px;
+}
+.recomendation-link-text {
+    font-size: 18px;
+}
+/* cards ends here */
+
+
+/* Email starts here  */
+
+.email {
+    height: auto;
+    background-color: #0A294D;
+    padding-top: 33px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 144px;
+    gap: 51px;
+}
+.email-head {
+    padding-top: 88px;
+    gap: 28px;
+}
+.email-img {
+    width: 180px;
+    height: 180px;
+}
+.email-head-heading {
+    gap: 24px;
+}
+.email-head-heading-text {
+    font-size: 24px;
+}
+.email-head-heading-para-text {
+    font-size: 14px;
+}
+.email-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.email-form-typ-btn {
+    width: 395px;
+    height: 59px;
+    color:#0D3B6D ;
+    padding: 20px 21px;
+}
+.email-form-typ-btn-text {
+    font-size: 14px;
+}
+.email-form-btn {
+    font-size: 14px;
+}
+/* Email ends here */
+.footer {
+    height: auto;
+    padding-top: 66px;
+    padding-bottom: 42px;
+    padding-right: 16px;
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 49px;
+}
+.footer-head {
+    padding-bottom: 49px;
+    gap: 24px;
+    border-bottom: 1px solid whitesmoke;
+}
+.footer-head-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 41px;
+}
+.footer-head-heading-text {
+    font-size: 32px;
+    text-align: center;
+}
+.footer-head-heading-para {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+.footer-right-reserve {
+    padding: 24px 0px;
+    border: none;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 33px;
+}
+.footer-para-brk {
+    display: none;
+}
+}
